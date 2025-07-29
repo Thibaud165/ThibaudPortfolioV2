@@ -8,3 +8,20 @@ body {
 h1, h2, h3, h4, h5, h6, p, a, button {
     color: #f3f3f3;
 }
+
+
+.lang-selector {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.lang-selector img {
+    height: 50px;
+    transition: transform 0.3s ease; /* durée + effet */
+    cursor: pointer;
+    margin: 5px;
+}
+
+.lang-selector img:hover {
+    transform: scale(1.1);
+}

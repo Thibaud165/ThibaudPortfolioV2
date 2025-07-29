@@ -8,8 +8,24 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="flag">
-        <img
+    <div class="lang-selector">
+        <div id="lang-fr">
+            <img src="./image/flags/fr-true.png" alt="fr flag" onclick="setLang('fr')">
+            <img src="./image/flags/en-false.png" alt="en flag" onclick="setLang('en')">
+            <img src="./image/flags/es-false.png" alt="es flag" onclick="setLang('es')">
+        </div>
+
+        <div id="lang-en" style="display: none;">
+            <img src="./image/flags/fr-false.png" alt="fr flag" onclick="setLang('fr')">
+            <img src="./image/flags/en-true.png" alt="en flag" onclick="setLang('en')">
+            <img src="./image/flags/es-false.png" alt="es flag" onclick="setLang('es')">
+        </div>
+            
+        <div id="lang-es" style="display: none;">
+            <img src="./image/flags/fr-false.png" alt="fr flag" onclick="setLang('fr')">
+            <img src="./image/flags/en-false.png" alt="en flag" onclick="setLang('en')">
+            <img src="./image/flags/es-true.png" alt="es flag" onclick="setLang('es')">
+        </div>
     </div>
     <h1>Thibaud Jourdan</h1>
 </body>
