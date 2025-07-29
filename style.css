@@ -1,4 +1,7 @@
 body {
     background-color: #000016;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button {
     color: #f3f3f3;
 }
