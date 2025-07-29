@@ -7,6 +7,10 @@ body {
 
 h1, h2, h3, h4, h5, h6, p, a, button {
     color: #f3f3f3;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 
 
@@ -24,4 +28,33 @@ h1, h2, h3, h4, h5, h6, p, a, button {
 
 .lang-selector img:hover {
     transform: scale(1.1);
+}
+
+@keyframes slideFromLeft {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.title {
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+.title h1 {
+    font-size: 150px;
+    margin: 0;
+    opacity: 0;
+    transform: translateX(-20%);
+    animation: slideFromLeft 1.5s cubic-bezier(0,.11,.3,1) forwards;
+}
+
+.title h2 {
+    font-size: 70px;
+    margin-top: -10px;
+    opacity: 0;
+    transform: translateX(-20%);
+    animation: slideFromLeft 1.5s cubic-bezier(0,.11,.3,1) forwards;
+    animation-delay: 0.2s;
 }
