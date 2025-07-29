@@ -1,5 +1,8 @@
 body {
+    height: 100vh;
     background-color: #000016;
+    background: linear-gradient(to bottom,#000000 0%, #000016 70vh);
+    background-repeat: no-repeat;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, button {
