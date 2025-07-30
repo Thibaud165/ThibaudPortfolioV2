@@ -72,10 +72,3 @@ h1, h2, h3, h4, h5, h6, p, a, button {
     position: relative;
 }
 
-.title-exemple div {
-    background: #e0f7fa;
-    border: 2px solid #a70000;
-    padding: 20px;
-    font-weight: bold;
-    text-align: center;
-}
