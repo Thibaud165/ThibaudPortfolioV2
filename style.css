@@ -72,3 +72,28 @@ h1, h2, h3, h4, h5, h6, p, a, button {
     position: relative;
 }
 
+.title-html {
+    position: absolute;
+    height: 150px;
+    top: 10px;
+}
+
+.title-js {
+    position: absolute;
+    height: 150px;
+    top: 40px;
+    right: 450px;
+}
+
+.title-css {
+    position: absolute;
+    height: 150px;
+    top: 75px;
+    right: 100px;
+}
+
+.title-sql {
+    position: absolute;
+    height: 150px;
+    top: 400px;
+}
